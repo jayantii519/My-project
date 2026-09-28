@@ -7,7 +7,7 @@ public class loops{
     sum = sum + i;
     
     }
-    System.out.println("Sum of the is: "+sum);
+    System.out.println("Final sum: "+sum);
 
   }
 }
