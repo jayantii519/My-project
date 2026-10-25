@@ -1,11 +1,11 @@
 public class PrimeCheck2 {
   public static void main(String[]args){
    int num = 3;
-   int count = 0;
+   int count = 0;           // use for count or holds the no. of dividers
 
      for(int i = 2; i < num; i++){
        if(num % i== 0) {
-       count ++;
+       count ++;                
  
   } }
 
