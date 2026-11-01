@@ -1,7 +1,7 @@
 public class palindrome{
    public static void main(String[]args){
    int n = 656, temp, rev = 0,d ;
-   d = n ;   // for  
+   d = n ;   // for  storing actaul value of n  
     //loop to reverse the no. 
    while(n > 0){       
    temp = n % 10 ;
@@ -9,7 +9,7 @@ public class palindrome{
    n = n / 10;
    }
 
-   if(d == rev)
+   if(d == rev) // comparing value of n to reversed no.
  System.out.println(rev +"is Palindrom");
  else
    System.out.println(rev +"is not palindrome");
