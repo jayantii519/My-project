@@ -7,7 +7,7 @@ int n = 6, i, j;
   {
     System.out.print("*");
   }
- System.out.println(); 
+ System.out.println();  // simply move to next line
 }
   }
 }
